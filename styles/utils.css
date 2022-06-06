@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+@font-face {
+  /* font-family: 'PT Sans Web';
+  src: url('/fonts/PT_Sans-Web-Bold.ttf');
+  font-weight: 700; */
+
+
+  font-family: 'PT Sans Web';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/fonts/PT_Sans-Web-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  /* font-family: 'PT Sans Web';
+  src: url('/fonts/PT_Sans-Web-BoldItalic.ttf');
+  font-weight: bold italic; */
+
+  font-family: 'PT Sans Web';
+  font-style: italic;
+  font-weight: 700;
+  src: url('/fonts/PT_Sans-Web-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+  /* font-family: 'PT Sans Web';
+  src: url('/fonts/PT_Sans-Web-Italic.ttf');
+  font-weight: italic; */
+
+  font-family: 'PT Sans Web';
+  font-style: italic;
+  font-weight: 400;
+  src: url('/fonts/PT_Sans-Web-Italic.ttf') format('truetype');
+}
+
+@font-face {
+  /* font-family: 'PT Sans Web';
+  src: url('/fonts/PT_Sans-Web-Regular.ttf');
+  font-weight: 400; */
+
+  font-family: 'PT Sans Web';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/PT_Sans-Web-Regular.ttf') format('truetype');
+}
+
+body {
+  font-family: 'PT Sans Web';
+  line-height: 1.6;
+  letter-spacing: 0.2px;
+  font-weight: 400;
+  /* color: #3e495e; */
+  margin: 0px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
